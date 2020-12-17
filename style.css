@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-emphasis: none;
+    box-sizing: border-box;
+}
+/*nav bar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: magenta;
+    font-family: sans-serif; 
+}
+.logo{
+color: springgreen;
+letter-spacing: 5px;
+font-size: 24px;
+}
+.nav-links{
+    display: flex;
+    background-color:  beige;
+    justify-content:  space-around;
+    width: 500px;
+}
+li{
+list-style: none;
+}
+.nav-links a{
+    font-size: 18;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: blue;
+}
+.burger div{
+ width: 25px;
+ height: 3px;
+ background-color: rgb(104, 104, 73);
+ margin: 5px;
+
+}
+@media screen and (max-width: 1024){
+    .nav-links{
+        width: 60%;
+    }
+    .burger{
+        display: none;
+        cursor: pointer;
+    }
+}
+.products{
+    display: grid;
+    gap: 1rem;
+    /*justify-content: space-around;*/
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+button{
+    background-color: yellow;
+    cursor: pointer;
+
+}
+button:hover{
+background-color: transparent;
+color: var(--mainprimary color);
+}
+h2{
+    color: white;
+    font-size: 22;
+}
+
+/* end of nav bar*/
