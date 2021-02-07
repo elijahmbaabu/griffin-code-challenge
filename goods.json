@@ -1,0 +1,189 @@
+{
+    "items": [
+        {
+            "sys" : {"id": "1"},
+            "fields" : {
+                "title" : "OPPO smartphone",
+                "price" : 200,
+                "image" : {"url" :"images/oppo.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "2"},
+            "fields" : {
+                "title" : "Electrical cooker",
+                "price" : 40,
+                "image" : { "url" : "images/ecooker.jpg" }
+            }
+        },
+        {
+            "sys" : {"id": "3"},
+            "fields" : {
+                "title" : "Electrical cooker",
+                "price" : 45,
+                "image" : { "url" : "images/cooker.jpg" } 
+            }
+        },
+        {
+            "sys" : {"id": "4"},
+            "fields" : {
+                "title" : "Hp elitebook hp laptop",
+                "price" : 359,
+                "image" : { "url" :"images/elitebook.jpg" } 
+            }
+        },
+        {
+            "sys" : {"id": "5"},
+            "fields" : {
+                "title" : "lenovo laptop",
+                "price" : 330,
+                "image" : {"url" :"./images/lenovo.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "6"},
+            "fields" : {
+                "title" : "apple watch",
+                "price" : 32.99,
+                "image" : {"url" :"./images/applewatch.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "7"},
+            "fields" : {
+                "title" : "von woofer",
+                "price" : 155,
+                "image" : {"url" :"./images/woofer1.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "8"},
+            "fields" : {
+                "title" : "home theatre",
+                "price" : 100,
+                "image" : {"url" :"./images/woofer2.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "9"},
+            "fields" : {
+                "title" : "mini woofer",
+                "price" : 155.99,
+                "image" : {"url" :"images/woofer3.jpg"} 
+            }
+        },
+        {
+            "sys" : {"id": "10"},
+            "fields" : {
+                "title" : "android smart watch",
+                "price" : 235.35,
+                "image" : {"url" :"./images/androidwatch.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "11"},
+            "fields" : {
+                "title" : "usb cable",
+                "price" :2.55 ,
+                "image" : {"url" :"./images/usbcable.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "12"},
+            "fields" : {
+                "title" : "hp pen drive 64gb otg",
+                "price" : 45.23,
+                "image" : { "url" :"./images/usb flash.jpg"} 
+            }
+        },
+        {
+            "sys" : {"id": "13"},
+            "fields" : {
+                "title" : "smart watch",
+                "price" : 21.67,
+                "image" : {"url" :"./images/watch1.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "14"},
+            "fields" : {
+                "title" : "smart watch",
+                "price" : 234.55,
+                "image" : {"url" :"./images/watch2.jpg"} 
+            }
+        },
+        {
+            "sys" : {"id": "15"},
+            "fields" : {
+                "title" : "home sub-woofer",
+                "price" : 132.98,
+                "image" : { "url" :"./images/woofer5.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "16"},
+            "fields" : {
+                "title" : "sexy smart watch",
+                "price" : 18.99,
+                "image" : { "url" :"./images/watch3.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "17"},
+            "fields" : {
+                "title" : "attractive smart watch",
+                "price" : 26.34,
+                "image" : { "url" :"./images/ecooker.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "18"},
+            "fields" : {
+                "title" : "tecno smart watch",
+                "price" : 20.88,
+                "image" : {"url" :"./images/watch4.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "19"},
+            "fields" : {
+                "title" : "zenk book hp laptop",
+                "price" : 1020.99,
+                "image" : { "url" :"./images/zenkbook.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "20"},
+            "fields" : {
+                "title" : "sandisk pendrive 32gb",
+                "price" : 23.90,
+                "image" : {"url" :"./images/sandisk.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "21"},
+            "fields" : {
+                "title" : "hp pavilion laptop",
+                "price" : 650,
+                "image" : { "url" :"./images/hp pavilion.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "22"},
+            "fields" : {
+                "title" : "itel1508 smartphone",
+                "price" : 112.45,
+                "image" : {"url" :"./images/itel.jpg"}
+            }
+        },
+        {
+            "sys" : {"id": "23"},
+            "fields" : {
+                "title" : "home sound ultra high",
+                "price" : 188.99,
+                "image" : {"url" :"./images/homesound.jpg"}
+            }
+        }
+        
+    ]
+}
