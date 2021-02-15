@@ -56,7 +56,7 @@
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
-    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     opacity: 90%;
     font-size: 14;
     justify-content: space-between;
@@ -74,7 +74,7 @@ color: var(--mainprimary color);
 }
 h2{
     color: var(--Mainblack);
-    font-size: 14;  
+    font-size: 10;  
 }
 .fa{
     position: relative;
@@ -114,8 +114,8 @@ h2{
 color: var(--mainprimary color);
     
 }
-p{
-    font-size: 12;
+h5{
+    font-size: 10;
     text-align: center;
     text-transform: lowercase;
 }
@@ -123,19 +123,19 @@ p{
     position: fixed;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 100%;
     height: 100%;
     background: transparent;
     transition: var(--mainTransition);
     background: magenta;
-    z-index: 5;
+    z-index: 2;
     visibility: hidden;
 }
 .cart{
     position: fixed;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 100%;
     height: 100%;
     overflow: scroll;
     background: var(--mainWhite);
@@ -145,9 +145,20 @@ p{
     background:springgreen;
     transform: translateX(100%);
 }
+.showCart{
+    transform: translateX(0);
+}
+.transparentBcg{
+    visibility: visible;
+}
+@media screen and (min-width:768px){
+    .cart{
+        width: 35vw;
+        min-width: 475px;
+    }
+}
 .item-amount{
-    text-align: center;
-    
+    text-align: center;   
 }
 .cart-item{
     display: grid;
@@ -178,7 +189,9 @@ p{
     border-radius: 0%;
     border: 0ch;
 }
-
-
-
-/* end of nav bar*/
+.cart-footer{
+    align-items: center;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto 1fr auto;
+}
